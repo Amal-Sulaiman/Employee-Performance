@@ -1,0 +1,83 @@
+body {
+    margin: 10vh;
+    font-family: Arial, sans-serif;
+    background:  #f0ebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+fieldset{
+    border: 2px solid #004332;
+    padding: 10px;
+    color: #004332;
+    font-size: 2vh;
+}
+
+
+
+#Employee{
+    font-size: 2.5vh;
+    position: relative;
+    padding: 2vw;
+    justify-content: center;
+    
+    height: 30vh;
+    width:80vw;
+}
+
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D7D2CB;
+    color: #004332;
+}
+
+
+
+
+
+button{
+
+    margin:2vh;
+    width: 90%;
+    background-color:  #b99651c5;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #004332;
+}
+
+
+li {
+    align-items: center;
+    padding: 6px;
+    font-size: 14px;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ccc; 
+    list-style-type: decimal;
+}
+
+
+.left {
+    text-align: left; 
+   
+   
+}
+
+.right {
+    text-align: right; 
+    justify-content: center;
+    display: flex; 
+}
